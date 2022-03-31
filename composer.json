@@ -17,5 +17,15 @@
         "psr-4": {
             "ToiLaDev\\DocToImage\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ToiLaDev\\DocToImage\\ServiceProvider"
+            ],
+            "aliases": {
+                "D2I": "ToiLaDev\\DocToImage\\Facades\\D2I"
+            }
+        }
+    },
 }
