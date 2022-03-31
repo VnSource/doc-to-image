@@ -1,0 +1,22 @@
+{
+    "name": "toiladev/doc-to-image
+",
+    "description": "Convert document to image",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr. VnS",
+            "email": "mrvns@live.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2|^8.0",
+        "ext-imagick" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ToiLaDev\\DocToImage\\": "src/"
+        }
+    }
+}
