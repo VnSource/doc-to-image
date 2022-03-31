@@ -1,6 +1,5 @@
 {
-    "name": "toiladev/doc-to-image
-",
+    "name": "toiladev/doc-to-image",
     "description": "Convert document to image",
     "type": "library",
     "license": "MIT",
